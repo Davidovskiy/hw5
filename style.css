@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20px;
+}
+

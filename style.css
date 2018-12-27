@@ -16,15 +16,29 @@ h1 {
     padding:100px;
     display: grid;
     grid-template-columns:1fr;
-    grid-template-rows: auto;
-    grid-gap:10px;
+
 }
-form {
+
+.forms {
     display: grid;
+    margin-bottom: 10px;
+}
+
+.forms input {
+    line-height: 20px;
+    padding: 5px;
+    border:1px solid #5c93f1;
+    margin-left: 20px;
+
+}
+label:after {
+    content: "*";
+    color: red;
+    font-weight: bold;
 }
 
 
-input {
-    border-color: #5c93f1;
-
+.button {
+    width: 100px;
+    height: 50px;
 }

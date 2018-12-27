@@ -8,32 +8,28 @@
 <body>
 <h1>User profile</h1>
 <div class="profile">
-    <div class="first1">
-        <label for="first">First name</label>
-        <input type="text" id="first">
-    </div>
+<form>
+    <label for="first">First name*</label>
+    <input type="text" id="first">
+
     <label for="last">Last name</label>
     <input type="text" id="last">
 
     <label for="surname">Surname</label>
     <input type="text" id="surname">
 
-    <div>
-        <label for="birth">Birth date</label>
-        <input type="date" id="birth">
-    </div>
+    <label for="birth">Birth date</label>
+    <input type="date" id="birth">
 
     <fieldset>
         <legend>Gender</legend>
-        <div>
-            <input type="radio" id="gender">
             <label for="gender">Male</label>
-        </div>
-        <div>
-            <input type="radio" id="gender2">
+            <input type="radio" id="gender">
+
             <label for="gender2">Female</label>
-        </div>
+            <input type="radio" id="gender2">
     </fieldset>
+
 
     <label for="e-mail">E-mail</label>
     <input type="email" id="e-mail">
@@ -44,14 +40,18 @@
     <label for="country">Country</label>
     <input type="text" id="country">
 
-    <label for="adress">Adress</label>
-    <input type="text" id="adress">
-</div>
+    <label for="address">Adress</label>
+    <input type="text" id="address">
+
     <span class="checkbox">
-        <input type="checkbox" id="check">
         <label for="check" class="checkbox">I accept the terms in the <a href="https://www.google.com/">license agreement</a></label>
+        <input type="checkbox" id="check">
     </span>
-    <button>Save</button>
+
+    <input type="submit" value="Save">
+</form>
+</div>
+
 
 
 
